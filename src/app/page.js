@@ -5,7 +5,9 @@ import { useRouter } from 'next/navigation';
 export default function Login() {
   const { push } = useRouter();
   function handleClick() {
+      //push works but it doesnt load js properly for flowbite sidebar drawer to work. hence am using window.location
       push('/dashboard')
+      //window.location = '/dashboard';
   }
   return (
     <div className="container mx-auto py-8">
