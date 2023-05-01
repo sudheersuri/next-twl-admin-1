@@ -5,7 +5,6 @@ import React, { useEffect, useState } from 'react'
 import { initFlowbite } from 'flowbite';
 
 export default function DashboardSidebarLayout({ children }) {
-  //get current url path
   const [activeLink, setActiveLink] = useState('');
   const pathname = usePathname();
   useEffect(() => {
@@ -51,10 +50,7 @@ export default function DashboardSidebarLayout({ children }) {
                   </div>
                   <ul className="py-1" role="none">
                      <li>
-                        <Link href="/profile" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">Profile</Link>
-                     </li>
-                     <li>
-                        <Link href="/signout" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">Sign out</Link>
+                        <Link href="/login" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">Sign out</Link>
                      </li>
                   </ul>
                   </div>
@@ -76,7 +72,7 @@ export default function DashboardSidebarLayout({ children }) {
          </div>
       </aside>
       <div className="p-2 sm:ml-64 mt-14">
-      {children}
+         {children}
       </div>
    </div>
   );
