@@ -9,11 +9,11 @@ export default function Register() {
         <h1 className="text-center font-bold mb-3">COMPANY NAME</h1>
         <h2 className="text-md mb-6 text-center text-gray-400">Registration</h2>
         <div className="mb-4">
-          <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">
+          <label className="block text-gray-700 text-sm font-bold mb-2"  htmlFor="name">
             Name
           </label>
           <input
-            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500"
+            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
             type="text"
             id="name"
             name="name"
@@ -21,11 +21,11 @@ export default function Register() {
           />
         </div>
         <div className="mb-4">
-          <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
+          <label className="block text-gray-700 text-sm font-bold mb-2"  htmlFor="email">
             Email
           </label>
           <input
-            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500"
+            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
             type="email"
             id="email"
             name="email"
@@ -35,12 +35,12 @@ export default function Register() {
         <div className="mb-4">
           <label
             className="block text-gray-700 text-sm font-bold mb-2"
-            htmlFor="password"
+             htmlFor="password"
           >
             Password
           </label>
           <input
-            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500"
+            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
             type="password"
             id="password"
             name="password"
@@ -50,12 +50,12 @@ export default function Register() {
         <div className="mb-4">
           <label
             className="block text-gray-700 text-sm font-bold mb-2"
-            htmlFor="confirm-password"
+             htmlFor="confirm-password"
           >
             Confirm Password
           </label>
           <input
-            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500"
+            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
             type="password"
             id="confirm-password"
             name="confirm-password"
@@ -63,7 +63,7 @@ export default function Register() {
           />
         </div>
         <button
-          className="w-full bg-indigo-500 text-white text-sm font-bold py-3 px-4 rounded-md hover:bg-indigo-600 transition duration-300"
+          className="w-full bg-blue-700 text-white text-sm font-bold py-3 px-4 rounded-md hover:bg-blue-700 transition duration-300"
           type="submit"
         >
           Register
@@ -73,7 +73,7 @@ export default function Register() {
           Already have an account?{" "}
           <Link
             href="/login"
-            className="text-indigo-500 font-medium text-primary-600 hover:underline dark:text-primary-500"
+            className="text-blue-500 font-medium text-primary-600 hover:underline dark:text-primary-500"
           >
             Login
           </Link>

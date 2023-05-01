@@ -13,11 +13,11 @@ export default function Login() {
         <h1 className="text-center font-bold mb-3">COMPANY NAME</h1>
         <h2 className="text-md mb-6 text-center text-gray-400">Login</h2>
         <div className="mb-4">
-          <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
+          <label className="block text-gray-700 text-sm font-bold mb-2"  htmlFor="email">
             Email
           </label>
           <input
-            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500"
+            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
             type="email"
             id="email"
             name="email"
@@ -27,12 +27,12 @@ export default function Login() {
         <div className="mb-4">
           <label
             className="block text-gray-700 text-sm font-bold mb-2"
-            htmlFor="password"
+             htmlFor="password"
           >
             Password
           </label>
           <input
-            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500"
+            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
             type="password"
             id="password"
             name="password"
@@ -51,20 +51,20 @@ export default function Login() {
               />
             </div>
             <div className="ml-3 text-sm">
-              <label htmlFor="remember" className="text-gray-500 dark:text-gray-300">
+              <label  htmlFor="remember" className="text-gray-500 dark:text-gray-300">
                 Remember me
               </label>
             </div>
           </div>
           <Link
             href="/forgot-password"
-            className="text-indigo-500 text-sm font-medium text-primary-600 hover:underline dark:text-primary-500"
+            className="text-blue-500 text-sm font-medium text-primary-600 hover:underline dark:text-primary-500"
           >
             Forgot password?
           </Link>
         </div>
         <button
-          className="w-full bg-indigo-500 text-white text-sm font-bold py-3 px-4 rounded-md hover:bg-indigo-600 transition duration-300"
+          className="w-full bg-blue-700 text-white text-sm font-bold py-3 px-4 rounded-md hover:bg-blue-700 transition duration-300"
           type="button"
           onClick={handleClick}
         >
@@ -74,7 +74,7 @@ export default function Login() {
           Don't have an account?{" "}
           <Link
             href="/register"
-            className="text-indigo-500 font-medium text-primary-600 hover:underline dark:text-primary-500"
+            className="text-blue-500 font-medium text-primary-600 hover:underline dark:text-primary-500"
           >
             Register
           </Link>

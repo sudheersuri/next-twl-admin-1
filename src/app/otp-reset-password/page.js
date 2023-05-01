@@ -26,11 +26,11 @@ export default function Login() {
             </div>
             </div>}
           <div className="mb-4">
-            <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="otp">
+            <label className="block text-gray-700 text-sm font-bold mb-2"  htmlFor="otp">
             OTP
             </label>
             <input
-              className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500"
+              className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
               type="text"
               id="otp"
               name="otp"
@@ -38,17 +38,17 @@ export default function Login() {
             />
           </div>
           <div className="mb-4">
-        <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="password">Password</label>
-        <input className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500"
+        <label className="block text-gray-700 text-sm font-bold mb-2"  htmlFor="password">Password</label>
+        <input className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
           type="password" id="password" name="password" placeholder="********"/>
       </div>
       <div className="mb-4">
-        <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="confirm-password">Confirm Password</label>
-        <input className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500"
+        <label className="block text-gray-700 text-sm font-bold mb-2"  htmlFor="confirm-password">Confirm Password</label>
+        <input className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
           type="password" id="confirm-password" name="confirm-password" placeholder="********"/>
       </div>  
           <button
-            className="w-full bg-indigo-500 text-white text-sm font-bold py-3 px-4 rounded-md hover:bg-indigo-600 transition duration-300"
+            className="w-full bg-blue-700 text-white text-sm font-bold py-3 px-4 rounded-md hover:bg-blue-700 transition duration-300"
             type="button"
             onClick={handleClick}
          >
