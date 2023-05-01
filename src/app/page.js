@@ -71,7 +71,7 @@ export default function Login() {
           Login
         </button>
         <p className="my-3 text-sm font-light text-gray-500 dark:text-gray-400">
-          Don't have an account?{" "}
+          Don&apos;t have an account?{" "}
           <Link
             href="/register"
             className="text-blue-500 font-medium text-primary-600 hover:underline dark:text-primary-500"
